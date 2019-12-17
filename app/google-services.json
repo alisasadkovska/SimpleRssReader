@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "680503651774",
+    "firebase_url": "https://news-b3249.firebaseio.com",
+    "project_id": "news-b3249",
+    "storage_bucket": "news-b3249.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680503651774:android:377321b9053c80d0139def",
+        "android_client_info": {
+          "package_name": "com.alisasadkovska.simplerssreader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680503651774-e9vrmqvdmimimj0g2tvcmvotla9hvgkf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuuzWaFhLxvGQqF--NY5Y9qmVSxawqVLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680503651774-e9vrmqvdmimimj0g2tvcmvotla9hvgkf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

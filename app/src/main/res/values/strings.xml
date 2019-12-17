@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SimpleRssReader</string>
+    <string name="refresh">Refresh</string>
+    <string name="action_internet">internet</string>
+    <string name="action_share">share</string>
+    <string name="share_from">share from</string>
+    <string name="share_with">share with</string>
+    <string name="share_error">share error</string>
+</resources>
