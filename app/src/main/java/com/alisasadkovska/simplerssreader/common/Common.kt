@@ -2,7 +2,7 @@ package com.alisasadkovska.simplerssreader.common
 import com.google.firebase.database.FirebaseDatabase
 
 object Common {
-    const val API_KEY = "&api_key=hirycfldd61k0dcydlqmberfdxb4ligzq69x1hdt"
+    const val API_KEY = "your API key"
     const val RSS_to_json_API = "https://api.rss2json.com/v1/api.json?rss_url="
     const val COUNT = "&count="
 
