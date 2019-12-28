@@ -1,4 +1,4 @@
-package com.alisasadkovska.simplerssreader.model;
+package com.alisasadkovska.simplerssreader.model.database;
 
 import java.util.List;
 
@@ -12,10 +12,10 @@ public class Item
     public String thumbnail;
     public String description;
     public String content;
-    public Enclousure enclosure;
+    public Enclosure enclosure;
     public List<String> categories;
 
-    public Item(String title, String pubDate, String link, String guid, String author, String thumbnail, String description, String content, Enclousure enclosure, List<String> categories) {
+    public Item(String title, String pubDate, String link, String guid, String author, String thumbnail, String description, String content, Enclosure enclosure, List<String> categories) {
         this.title = title;
         this.pubDate = pubDate;
         this.link = link;
@@ -92,11 +92,11 @@ public class Item
         this.content = content;
     }
 
-    public Enclousure getEnclosure() {
+    public Enclosure getEnclosure() {
         return enclosure;
     }
 
-    public void setEnclosure(Enclousure enclosure) {
+    public void setEnclosure(Enclosure enclosure) {
         this.enclosure = enclosure;
     }
 

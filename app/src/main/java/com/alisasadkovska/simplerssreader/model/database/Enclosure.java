@@ -1,11 +1,11 @@
-package com.alisasadkovska.simplerssreader.model;
+package com.alisasadkovska.simplerssreader.model.database;
 
-public class Enclousure {
+public class Enclosure {
     public String link;
     public String type;
     public int length;
 
-    public Enclousure(String link, String type, int length) {
+    public Enclosure(String link, String type, int length) {
         this.link = link;
         this.type = type;
         this.length = length;

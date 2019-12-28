@@ -3,4 +3,13 @@
     <color name="colorPrimary">#FFFFFF</color>
     <color name="colorPrimaryDark">#CFCFCF</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="darkColorPrimary">#292929</color>
+    <color name="darkColorPrimaryDark">#202020</color>
+    <color name="darkColorAccent">#00BCD4</color>
+
+    <color name="progressBarColor">#4CAF50</color>
+    <color name="progressTrackColor">#339FEB</color>
+    <color name="trackColor">#3F51B5</color>
+
 </resources>

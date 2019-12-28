@@ -1,4 +1,4 @@
-package com.alisasadkovska.simplerssreader.model;
+package com.alisasadkovska.simplerssreader.model.database;
 
 public class Feed
 {
