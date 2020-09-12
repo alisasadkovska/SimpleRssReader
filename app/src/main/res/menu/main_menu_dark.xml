@@ -13,7 +13,7 @@
         app:showAsAction="ifRoom"/>
 
     <item android:id="@+id/menu_saved"
-        android:icon="@drawable/ic_save_white_24dp"
+        android:icon="@drawable/ic_star_white_24dp"
         app:showAsAction="ifRoom"
         android:title="@string/saved"/>
 </menu>

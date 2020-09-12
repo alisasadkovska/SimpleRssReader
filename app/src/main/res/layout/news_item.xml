@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView android:layout_width="match_parent"
+<androidx.cardview.widget.CardView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginStart="8dp"
     android:layout_marginTop="2dp"
@@ -45,22 +46,22 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:background="?attr/colorPrimary"
             android:id="@+id/view_foreground"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent"
+            android:background="?attr/colorPrimary">
 
             <ImageView
                 android:id="@+id/newsCoverImage"
                 android:layout_width="150dp"
-                android:layout_height="100dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="24dp"
                 android:layout_marginBottom="8dp"
                 android:contentDescription="@string/app_name"
                 android:scaleType="fitCenter"
                 app:layout_constraintBottom_toTopOf="@+id/textTitle"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ProgressBar
@@ -86,37 +87,16 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
-            <LinearLayout
-                android:id="@+id/frameLayout"
+
+            <TextView
+                android:id="@+id/publishedAt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
-                android:background="@drawable/round_white"
-                android:orientation="horizontal"
-                android:padding="8dp"
-                app:layout_constraintBottom_toTopOf="@+id/textTitle"
-                app:layout_constraintEnd_toStartOf="@+id/newsCoverImage"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/favoriteButton">
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-                <ImageView
-                    android:layout_width="18dp"
-                    android:layout_height="18dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    android:contentDescription="@string/app_name"
-                    android:src="@drawable/ic_date" />
-
-                <TextView
-                    android:id="@+id/publishedAt"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="#606060" />
-
-            </LinearLayout>
 
             <TextView
                 android:id="@+id/textCategory"
@@ -129,14 +109,14 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageButton
-                style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:id="@+id/favoriteButton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:contentDescription="@string/app_name"
-                android:src="@drawable/ic_save_black_24dp"
+                android:src="@drawable/ic_star_border_black_24dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 

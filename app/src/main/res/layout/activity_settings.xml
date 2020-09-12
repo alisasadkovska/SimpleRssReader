@@ -61,13 +61,6 @@
 
             </LinearLayout>
 
-            <Button
-                android:id="@+id/deleteButton"
-                android:drawableStart="@drawable/ic_delete_forever_white_24dp"
-                android:text="@string/remove_cache"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
 
             <TextView
                 android:id="@+id/textMax"
@@ -160,6 +153,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
+            <Button
+                android:id="@+id/deleteButton"
+                android:drawableStart="@drawable/ic_delete_forever_white_24dp"
+                android:text="@string/remove_cache"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
 
         </LinearLayout>
 

@@ -8,12 +8,20 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:680503651774:android:377321b9053c80d0139def",
+        "mobilesdk_app_id": "1:680503651774:android:6dd7997cc5d5e917139def",
         "android_client_info": {
-          "package_name": "com.alisasadkovska.simplerssreader"
+          "package_name": "com.alisasadkovska.rss"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "680503651774-2er7lmk20gpkjknd7g0cplqbadp40lc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alisasadkovska.rss",
+            "certificate_hash": "5e20cd7a7bf3c7f891ea0c8aa4edff641a80a62c"
+          }
+        },
         {
           "client_id": "680503651774-e9vrmqvdmimimj0g2tvcmvotla9hvgkf.apps.googleusercontent.com",
           "client_type": 3

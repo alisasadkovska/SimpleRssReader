@@ -20,10 +20,17 @@
     <string name="content">Контент</string>
     <string name="cache_was_deleted">кеш видалено</string>
     <string name="saved">… збережено</string>
-    <string name="present">… вже збережено</string>
     <string name="delete">видалити</string>
     <string name="deleted">видалено зі збереженого</string>
     <string name="restore">ВІДНОВИТИ</string>
     <string name="no_saved">тут порожньо</string>
     <string name="save">Збережені</string>
+    <string name="yesterday">• Вчора</string>
+    <string name="day_before_yesterday">• Позавчора</string>
+    <string name="dot">•\u0020</string>
+    <string name="days_left">\u0020днів тому</string>
+    <string name="hours_left">\u0020годин тому</string>
+    <string name="minutes_left">\u0020хвилин тому</string>
+    <string name="now">• щойно</string>
+    <string name="change_wifi_state">дозволити увімкнути wi fi</string>
 </resources>
